@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://example.com/political-test/sitemap.xml
+
+# Disallow common crawling issues
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow Googlebot specifically
+User-agent: Googlebot
+Allow: /
+
+# Allow Google AdSense bot
+User-agent: Mediapartners-Google
+Allow: /
+
+# Crawl-delay for all bots
+Crawl-delay: 1
