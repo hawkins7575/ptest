@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="주요 정치 이론에 대한 종합적인 설명. 민주주의, 자본주의, 사회주의, 자유주의, 보수주의 등 핵심 정치 사상을 알아보세요.">
+    <meta name="keywords" content="정치이론, 민주주의, 자본주의, 사회주의, 자유주의, 보수주의, 정치사상, 정치철학">
+    <meta name="author" content="나의 정치 성향">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="정치 이론 가이드 | 나의 정치 성향">
+    <meta property="og:description" content="주요 정치 이론에 대한 종합적인 설명. 민주주의, 자본주의, 사회주의, 자유주의, 보수주의 등 핵심 정치 사상을 알아보세요.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://example.com/political-test/political-theory.html">
+    
+    <title>정치 이론 가이드 | 나의 정치 성향</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen bg-gray-50">
+    <nav class="bg-white border-b border-gray-200">
+        <div class="container mx-auto max-w-6xl px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">🧭</span>
+                    </div>
+                    <h1 class="text-xl font-bold text-gray-800">나의 정치 성향</h1>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">홈</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">소개</a>
+                    <a href="political-spectrum.html" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">정치 스펙트럼</a>
+                    <a href="political-theory.html" class="text-blue-600 font-medium">정치 이론</a>
+                </div>
+                
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg bg-gray-100">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto max-w-4xl px-4 py-8">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">정치 이론 가이드</h1>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                현대 정치를 이해하는 데 필수적인 주요 정치 이론들을 살펴보세요. 
+                각 이론의 핵심 개념, 역사적 배경, 그리고 현실 적용 사례를 통해 
+                복잡한 정치 현상을 체계적으로 이해할 수 있습니다.
+            </p>
+        </header>
+
+        <!-- 목차 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-8">
+            <h2 class="text-xl font-bold text-gray-900 mb-4">📚 목차</h2>
+            <div class="grid md:grid-cols-2 gap-4 text-sm">
+                <div>
+                    <a href="#democracy" class="block text-blue-600 hover:text-blue-800 py-1">1. 민주주의 (Democracy)</a>
+                    <a href="#capitalism" class="block text-blue-600 hover:text-blue-800 py-1">2. 자본주의 (Capitalism)</a>
+                    <a href="#socialism" class="block text-blue-600 hover:text-blue-800 py-1">3. 사회주의 (Socialism)</a>
+                    <a href="#liberalism" class="block text-blue-600 hover:text-blue-800 py-1">4. 자유주의 (Liberalism)</a>
+                </div>
+                <div>
+                    <a href="#conservatism" class="block text-blue-600 hover:text-blue-800 py-1">5. 보수주의 (Conservatism)</a>
+                    <a href="#authoritarianism" class="block text-blue-600 hover:text-blue-800 py-1">6. 권위주의 (Authoritarianism)</a>
+                    <a href="#libertarianism" class="block text-blue-600 hover:text-blue-800 py-1">7. 자유지상주의 (Libertarianism)</a>
+                    <a href="#populism" class="block text-blue-600 hover:text-blue-800 py-1">8. 포퓰리즘 (Populism)</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 민주주의 -->
+        <section id="democracy" class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">🗳️ 민주주의 (Democracy)</h2>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">핵심 개념</h3>
+                    <p class="text-gray-700">
+                        "인민의, 인민에 의한, 인민을 위한 정치"라는 링컨의 정의로 유명한 민주주의는 
+                        주권이 국민에게 있으며, 국민이 직접 또는 대표를 통해 정치에 참여하는 제도입니다.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-semibold text-gray-800 mb-2">주요 원칙</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-green-600 mr-2">•</span>
+                                <span>국민 주권</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-600 mr-2">•</span>
+                                <span>자유 선거</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-600 mr-2">•</span>
+                                <span>다수결 원칙</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-600 mr-2">•</span>
+                                <span>소수 보호</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-600 mr-2">•</span>
+                                <span>권력 분립</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold text-gray-800 mb-2">유형</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">📊</span>
+                                <span><strong>직접민주주의:</strong> 국민이 직접 참여</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">🏛️</span>
+                                <span><strong>대의민주주의:</strong> 대표를 통한 간접 참여</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">⚖️</span>
+                                <span><strong>자유민주주의:</strong> 개인의 권리 보장</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-400">
+                    <h4 class="font-semibold text-blue-800 mb-2">현실 사례</h4>
+                    <p class="text-gray-700">
+                        미국, 영국, 프랑스, 독일, 한국 등 대부분의 선진국이 대의민주주의 체제를 채택하고 있으며, 
+                        스위스는 국민투표를 자주 활용하는 직접민주주의 요소가 강합니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 자본주의 -->
+        <section id="capitalism" class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">💰 자본주의 (Capitalism)</h2>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">핵심 개념</h3>
+                    <p class="text-gray-700">
+                        개인이 생산수단을 소유하고 시장에서 자유롭게 경쟁하여 이윤을 추구하는 경제 체제입니다. 
+                        '보이지 않는 손'이라는 시장 원리에 의해 자원이 효율적으로 배분된다고 봅니다.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-green-50 p-4 rounded-lg border border-green-200">
+                        <h4 class="font-semibold text-green-800 mb-2">특징</h4>
+                        <ul class="space-y-1 text-sm text-gray-700">
+                            <li>• 사유재산제</li>
+                            <li>• 자유경쟁</li>
+                            <li>• 시장경제</li>
+                            <li>• 이윤 동기</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                        <h4 class="font-semibold text-blue-800 mb-2">장점</h4>
+                        <ul class="space-y-1 text-sm text-gray-700">
+                            <li>• 경제적 효율성</li>
+                            <li>• 혁신 촉진</li>
+                            <li>• 개인 자유</li>
+                            <li>• 부의 창출</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-red-50 p-4 rounded-lg border border-red-200">
+                        <h4 class="font-semibold text-red-800 mb-2">한계</h4>
+                        <ul class="space-y-1 text-sm text-gray-700">
+                            <li>• 소득 불평등</li>
+                            <li>• 시장 실패</li>
+                            <li>• 경기 변동</li>
+                            <li>• 환경 문제</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400">
+                    <h4 class="font-semibold text-yellow-800 mb-2">발전 과정</h4>
+                    <p class="text-gray-700">
+                        18세기 아담 스미스의 『국부론』에서 이론적 기반이 마련되었으며, 
+                        19세기 산업혁명과 함께 본격 발달했습니다. 현재는 수정자본주의, 사회시장경제 등 
+                        다양한 형태로 진화하고 있습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 사회주의 -->
+        <section id="socialism" class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">🚩 사회주의 (Socialism)</h2>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">핵심 개념</h3>
+                    <p class="text-gray-700">
+                        생산수단의 사회적 소유를 통해 경제적 평등을 추구하는 이념입니다. 
+                        자본주의의 불평등과 착취를 해결하고자 하며, 집단의 이익을 개인의 이익보다 우선시합니다.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-semibold text-gray-800 mb-2">핵심 가치</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-red-600 mr-2">✊</span>
+                                <span>경제적 평등</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-red-600 mr-2">🤝</span>
+                                <span>사회적 연대</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-red-600 mr-2">🏭</span>
+                                <span>생산수단 공유</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-red-600 mr-2">📈</span>
+                                <span>계획경제</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold text-gray-800 mb-2">주요 유형</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">📚</span>
+                                <span><strong>마르크스주의:</strong> 계급투쟁론</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">🌹</span>
+                                <span><strong>사회민주주의:</strong> 점진적 개혁</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">🛠️</span>
+                                <span><strong>민주사회주의:</strong> 민주적 절차</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-red-50 p-4 rounded-lg border-l-4 border-red-400">
+                    <h4 class="font-semibold text-red-800 mb-2">역사적 실험</h4>
+                    <p class="text-gray-700">
+                        소련, 동유럽, 중국, 쿠바 등에서 실험되었으나, 많은 국가에서 경제적 비효율과 
+                        정치적 억압 문제가 발생했습니다. 현재는 북유럽 사회민주주의 모델이 
+                        성공적인 사례로 평가받고 있습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 자유주의 -->
+        <section id="liberalism" class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">🕊️ 자유주의 (Liberalism)</h2>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">핵심 개념</h3>
+                    <p class="text-gray-700">
+                        개인의 자유와 권리를 최우선 가치로 삼는 정치 철학입니다. 
+                        정부의 권력을 제한하고 개인의 자율성을 보장하여 
+                        인간의 존엄성과 다양성을 존중하고자 합니다.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                        <h4 class="font-semibold text-blue-800 mb-2">고전적 자유주의</h4>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• 자연권 사상</li>
+                            <li>• 최소 국가론</li>
+                            <li>• 자유방임주의</li>
+                            <li>• 개인주의</li>
+                            <li><strong>대표 사상가:</strong> 로크, 스미스, 밀</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-green-50 p-4 rounded-lg border border-green-200">
+                        <h4 class="font-semibold text-green-800 mb-2">현대적 자유주의</h4>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• 적극적 자유</li>
+                            <li>• 복지국가</li>
+                            <li>• 사회정의</li>
+                            <li>• 관용과 다원주의</li>
+                            <li><strong>대표 사상가:</strong> 롤스, 드워킨</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-400">
+                    <h4 class="font-semibold text-purple-800 mb-2">현대 사회에서의 자유주의</h4>
+                    <p class="text-gray-700">
+                        표현의 자유, 종교의 자유, 언론의 자유 등 기본권 보장의 이론적 토대가 되었으며, 
+                        민주주의 발전에 중요한 역할을 했습니다. 현재는 경제적 불평등 해결과 
+                        개인 자유 보장 사이의 균형을 찾는 것이 과제입니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 보수주의 -->
+        <section id="conservatism" class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">🏛️ 보수주의 (Conservatism)</h2>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">핵심 개념</h3>
+                    <p class="text-gray-700">
+                        기존의 전통, 관습, 제도의 가치를 인정하고 급진적 변화보다는 
+                        점진적이고 신중한 변화를 선호하는 정치 철학입니다. 
+                        사회 안정과 질서를 중시합니다.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="bg-amber-50 p-4 rounded-lg border border-amber-200">
+                        <h4 class="font-semibold text-amber-800 mb-2">핵심 가치</h4>
+                        <ul class="space-y-1 text-sm text-gray-700">
+                            <li>• 전통 존중</li>
+                            <li>• 질서와 안정</li>
+                            <li>• 권위 인정</li>
+                            <li>• 점진적 변화</li>
+                            <li>• 가족과 공동체</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                        <h4 class="font-semibold text-blue-800 mb-2">경제관</h4>
+                        <ul class="space-y-1 text-sm text-gray-700">
+                            <li>• 자유시장 경제</li>
+                            <li>• 사유재산권</li>
+                            <li>• 최소 정부</li>
+                            <li>• 기업가 정신</li>
+                            <li>• 경쟁 원리</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-red-50 p-4 rounded-lg border border-red-200">
+                        <h4 class="font-semibold text-red-800 mb-2">사회관</h4>
+                        <ul class="space-y-1 text-sm text-gray-700">
+                            <li>• 전통적 가치</li>
+                            <li>• 도덕적 질서</li>
+                            <li>• 법과 질서</li>
+                            <li>• 국가 안보</li>
+                            <li>• 문화 보존</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-gray-400">
+                    <h4 class="font-semibold text-gray-800 mb-2">대표적 사상가</h4>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
+                        <div>
+                            <strong>에드먼드 버크:</strong> 프랑스 혁명을 비판하며 점진적 개혁 주장
+                        </div>
+                        <div>
+                            <strong>러셀 커크:</strong> 현대 보수주의의 6원칙 제시
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 권위주의 -->
+        <section id="authoritarianism" class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">👑 권위주의 (Authoritarianism)</h2>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">핵심 개념</h3>
+                    <p class="text-gray-700">
+                        강력한 중앙 집권적 권력을 통해 사회 질서를 유지하고 
+                        국가 목표를 달성하려는 정치 체제입니다. 
+                        개인의 자유보다 집단의 안정과 효율성을 우선시합니다.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-semibold text-gray-800 mb-2">특징</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-purple-600 mr-2">👤</span>
+                                <span>강력한 지도자/정당</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-purple-600 mr-2">🏛️</span>
+                                <span>중앙집권적 정부</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-purple-600 mr-2">📜</span>
+                                <span>제한된 정치 참여</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-purple-600 mr-2">⚖️</span>
+                                <span>질서와 안정 우선</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold text-gray-800 mb-2">정당화 논리</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">⚡</span>
+                                <span>신속한 의사결정</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">🛡️</span>
+                                <span>국가 안보 확보</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">📈</span>
+                                <span>경제 발전 추진</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">🔒</span>
+                                <span>사회 안정 유지</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-orange-50 p-4 rounded-lg border-l-4 border-orange-400">
+                    <h4 class="font-semibold text-orange-800 mb-2">⚠️ 주의사항</h4>
+                    <p class="text-gray-700">
+                        권위주의는 정치학적 분석 개념으로, 특정 정치 체제의 특성을 객관적으로 
+                        설명하는 용어입니다. 현실에서는 민주주의와 권위주의가 스펙트럼상에서 
+                        다양한 형태로 나타날 수 있습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 자유지상주의 -->
+        <section id="libertarianism" class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">🗽 자유지상주의 (Libertarianism)</h2>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">핵심 개념</h3>
+                    <p class="text-gray-700">
+                        개인의 자유를 극대화하고 정부의 역할을 최소화하려는 정치 철학입니다. 
+                        "타인에게 해를 끼치지 않는 한 개인은 무엇이든 할 자유가 있다"는 
+                        비침해 원칙(Non-Aggression Principle)을 핵심으로 합니다.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                        <h4 class="font-semibold text-yellow-800 mb-2">경제적 자유</h4>
+                        <ul class="space-y-1 text-sm text-gray-700">
+                            <li>• 완전한 자유시장</li>
+                            <li>• 최소한의 규제</li>
+                            <li>• 낮은 세율</li>
+                            <li>• 중앙은행 폐지</li>
+                            <li>• 자유무역</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-green-50 p-4 rounded-lg border border-green-200">
+                        <h4 class="font-semibold text-green-800 mb-2">사회적 자유</h4>
+                        <ul class="space-y-1 text-sm text-gray-700">
+                            <li>• 표현의 자유</li>
+                            <li>• 생활양식의 자유</li>
+                            <li>• 약물 비범죄화</li>
+                            <li>• 반전주의</li>
+                            <li>• 개인 프라이버시</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-400">
+                    <h4 class="font-semibold text-blue-800 mb-2">정부의 역할</h4>
+                    <p class="text-gray-700">
+                        자유지상주의자들은 정부의 역할을 개인의 권리 보호, 계약 이행, 
+                        국방 등 최소한의 기능으로 제한해야 한다고 봅니다. 
+                        일부 극단적 자유지상주의자들은 무정부자본주의를 지지하기도 합니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 포퓰리즘 -->
+        <section id="populism" class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">📢 포퓰리즘 (Populism)</h2>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">핵심 개념</h3>
+                    <p class="text-gray-700">
+                        "순수한 인민"과 "부패한 엘리트" 간의 대립 구도를 전제로 하여 
+                        인민의 의지를 직접적으로 정치에 반영하려는 정치적 접근 방식입니다. 
+                        기존 정치 체제에 대한 도전의 성격을 가집니다.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-red-50 p-4 rounded-lg border border-red-200">
+                        <h4 class="font-semibold text-red-800 mb-2">좌파 포퓰리즘</h4>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• 경제적 불평등 비판</li>
+                            <li>• 대기업/금융자본 반대</li>
+                            <li>• 복지 확대 주장</li>
+                            <li>• 노동자 권익 강조</li>
+                            <li><strong>사례:</strong> 스페인 포데모스, 그리스 시리자</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                        <h4 class="font-semibold text-blue-800 mb-2">우파 포퓰리즘</h4>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• 문화적 정체성 강조</li>
+                            <li>• 반이민/반세계화</li>
+                            <li>• 전통적 가치 수호</li>
+                            <li>• 강한 국가 지향</li>
+                            <li><strong>사례:</strong> 트럼프, 브렉시트, 프랑스 국민연합</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-orange-50 p-4 rounded-lg border-l-4 border-orange-400">
+                    <h4 class="font-semibold text-orange-800 mb-2">포퓰리즘의 양면성</h4>
+                    <div class="grid md:grid-cols-2 gap-4 text-gray-700 text-sm">
+                        <div>
+                            <strong>긍정적 측면:</strong> 소외된 목소리 대변, 정치 참여 확대, 기존 체제 개혁 압력
+                        </div>
+                        <div>
+                            <strong>부정적 측면:</strong> 과도한 단순화, 분열 조장, 민주적 제도 약화 우려
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 정치 이론의 현대적 적용 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">🌍 현대 정치에서의 적용</h2>
+            
+            <div class="space-y-6">
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                    <h3 class="text-lg font-semibold text-blue-800 mb-4">정치 이론의 혼재</h3>
+                    <p class="text-gray-700 mb-4">
+                        현실의 정치는 단일한 이론으로 설명되지 않으며, 여러 이론이 복합적으로 나타납니다.
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
+                        <div>
+                            <strong>사회민주주의:</strong> 민주주의 + 사회주의 + 자유주의
+                        </div>
+                        <div>
+                            <strong>신자유주의:</strong> 자유주의 + 자본주의 + 최소국가론
+                        </div>
+                        <div>
+                            <strong>권위주의적 자본주의:</strong> 권위주의 + 자본주의
+                        </div>
+                        <div>
+                            <strong>자유보수주의:</strong> 보수주의 + 자유주의
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-green-50 p-6 rounded-lg border border-green-200">
+                    <h3 class="text-lg font-semibold text-green-800 mb-4">21세기의 새로운 과제</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-2">🌱</span>
+                            <span><strong>기후변화:</strong> 환경과 경제발전의 균형</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-2">🤖</span>
+                            <span><strong>인공지능:</strong> 기술발전과 일자리, 프라이버시</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-2">🌐</span>
+                            <span><strong>세계화:</strong> 국가주권과 국제협력</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-2">📱</span>
+                            <span><strong>디지털 민주주의:</strong> 온라인 참여와 정보 조작</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="text-center bg-blue-50 rounded-lg p-8 border border-blue-200">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">나는 어떤 정치 이론에 가까울까?</h2>
+            <p class="text-gray-600 mb-6">
+                다양한 정치 이론을 학습했다면, 이제 나의 정치적 성향을 확인해보세요.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="index.html" class="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors">
+                    정치성향 테스트 하기 🧭
+                </a>
+                <a href="political-spectrum.html" class="inline-block bg-gray-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-gray-700 transition-colors">
+                    정치 스펙트럼 알아보기 📊
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 mt-12">
+        <div class="container mx-auto max-w-6xl px-4 py-8">
+            <div class="text-center">
+                <div class="flex items-center justify-center space-x-3 mb-4">
+                    <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">🧭</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800">나의 정치 성향</h3>
+                </div>
+                <p class="text-gray-600 text-sm mb-4">
+                    정치적 이해를 넓히는 교육적 도구입니다.
+                </p>
+                <div class="text-xs text-gray-500">
+                    © 2024 나의 정치 성향. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Mobile menu functionality
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        
+        mobileMenuBtn.addEventListener('click', function() {
+            alert('모바일 메뉴 기능을 구현해주세요.');
+        });
+    </script>
+</body>
+</html>

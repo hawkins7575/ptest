@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="정치 스펙트럼에 대한 상세한 설명. 좌파와 우파, 권위주의와 자유주의의 차이점과 특징을 알아보세요.">
+    <meta name="keywords" content="정치스펙트럼, 좌파, 우파, 권위주의, 자유주의, 정치이론, 정치교육">
+    <meta name="author" content="나의 정치 성향">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="정치 스펙트럼 이해하기 | 나의 정치 성향">
+    <meta property="og:description" content="정치 스펙트럼에 대한 상세한 설명. 좌파와 우파, 권위주의와 자유주의의 차이점과 특징을 알아보세요.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://example.com/political-test/political-spectrum.html">
+    
+    <title>정치 스펙트럼 이해하기 | 나의 정치 성향</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen bg-gray-50">
+    <nav class="bg-white border-b border-gray-200">
+        <div class="container mx-auto max-w-6xl px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">🧭</span>
+                    </div>
+                    <h1 class="text-xl font-bold text-gray-800">나의 정치 성향</h1>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">홈</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">소개</a>
+                    <a href="political-spectrum.html" class="text-blue-600 font-medium">정치 스펙트럼</a>
+                    <a href="political-theory.html" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">정치 이론</a>
+                </div>
+                
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg bg-gray-100">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto max-w-4xl px-4 py-8">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">정치 스펙트럼 이해하기</h1>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                정치적 성향을 이해하는 기본 틀인 정치 스펙트럼에 대해 자세히 알아보세요. 
+                2차원 정치 좌표계를 통해 복잡한 정치적 입장을 체계적으로 분석할 수 있습니다.
+            </p>
+        </header>
+
+        <!-- 2D 정치 좌표계 소개 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">2차원 정치 좌표계란?</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-gray-700 mb-4">
+                        전통적인 좌파-우파 구분만으로는 현대 정치의 복잡성을 충분히 설명할 수 없습니다. 
+                        2차원 정치 좌표계는 두 개의 축을 사용하여 정치적 성향을 더 정확하게 분류합니다.
+                    </p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">•</span>
+                            <span><strong>경제적 축 (좌-우):</strong> 경제 정책에 대한 입장</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">•</span>
+                            <span><strong>사회적 축 (권위-자유):</strong> 사회적 자유에 대한 입장</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="relative w-full h-64 bg-white border border-gray-300 rounded-lg">
+                    <!-- Background Quadrants -->
+                    <div class="absolute inset-0">
+                        <div class="absolute top-0 left-0 w-1/2 h-1/2 bg-red-100"></div>
+                        <div class="absolute top-0 right-0 w-1/2 h-1/2 bg-blue-100"></div>
+                        <div class="absolute bottom-0 left-0 w-1/2 h-1/2 bg-green-100"></div>
+                        <div class="absolute bottom-0 right-0 w-1/2 h-1/2 bg-yellow-100"></div>
+                    </div>
+                    
+                    <!-- Axes -->
+                    <div class="absolute top-1/2 left-0 w-full h-0.5 bg-gray-600 -translate-y-1/2"></div>
+                    <div class="absolute left-1/2 top-0 w-0.5 h-full bg-gray-600 -translate-x-1/2"></div>
+                    
+                    <!-- Labels -->
+                    <div class="absolute top-2 left-2 text-xs font-semibold text-red-700 bg-white px-2 py-1 rounded">권위좌파</div>
+                    <div class="absolute top-2 right-2 text-xs font-semibold text-blue-700 bg-white px-2 py-1 rounded">권위우파</div>
+                    <div class="absolute bottom-2 left-2 text-xs font-semibold text-green-700 bg-white px-2 py-1 rounded">자유좌파</div>
+                    <div class="absolute bottom-2 right-2 text-xs font-semibold text-yellow-700 bg-white px-2 py-1 rounded">자유우파</div>
+                    
+                    <!-- Axis Labels -->
+                    <span class="absolute top-1 left-1/2 -translate-x-1/2 text-xs text-gray-600 bg-white px-2 py-1 rounded">권위주의</span>
+                    <span class="absolute bottom-1 left-1/2 -translate-x-1/2 text-xs text-gray-600 bg-white px-2 py-1 rounded">자유주의</span>
+                    <span class="absolute left-1 top-1/2 -translate-y-1/2 text-xs text-gray-600 bg-white px-1 py-2 rounded -rotate-90">좌파</span>
+                    <span class="absolute right-1 top-1/2 -translate-y-1/2 text-xs text-gray-600 bg-white px-1 py-2 rounded rotate-90">우파</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 경제적 스펙트럼 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">경제적 스펙트럼 (좌파 vs 우파)</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-red-50 p-6 rounded-lg border border-red-200">
+                    <h3 class="text-xl font-bold text-red-800 mb-4">경제적 좌파</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-red-600 mr-2">✓</span>
+                            <span>정부의 적극적인 시장 개입 지지</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-600 mr-2">✓</span>
+                            <span>소득 재분배와 복지 확대</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-600 mr-2">✓</span>
+                            <span>공공서비스 확충</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-600 mr-2">✓</span>
+                            <span>부유층에 대한 높은 세율</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-600 mr-2">✓</span>
+                            <span>노동자 권익 보호 강화</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                    <h3 class="text-xl font-bold text-blue-800 mb-4">경제적 우파</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>자유시장 경제 중시</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>최소한의 정부 개입</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>민영화 확대</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>낮은 세율과 규제 완화</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>기업 활동의 자유 보장</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 사회적 스펙트럼 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">사회적 스펙트럼 (권위주의 vs 자유주의)</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-purple-50 p-6 rounded-lg border border-purple-200">
+                    <h3 class="text-xl font-bold text-purple-800 mb-4">권위주의</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>사회 질서와 안정 중시</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>전통적 가치 보존</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>국가 안보 우선</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>법과 질서 강조</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>공동체 이익 우선</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-green-50 p-6 rounded-lg border border-green-200">
+                    <h3 class="text-xl font-bold text-green-800 mb-4">자유주의</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span>개인의 자유와 권리 중시</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span>다양성과 관용 추구</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span>표현의 자유 보장</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span>사회적 변화 수용</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span>개인의 선택권 존중</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4가지 정치 성향 상세 설명 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">4가지 주요 정치 성향</h2>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-red-50 p-6 rounded-lg border border-red-200">
+                    <h3 class="text-xl font-bold text-red-800 mb-3">🚩 권위주의적 좌파</h3>
+                    <p class="text-gray-700 mb-3">
+                        강력한 정부 주도로 경제적 평등을 추구하며, 사회 질서와 집단의 이익을 개인의 자유보다 우선시합니다.
+                    </p>
+                    <div class="text-sm text-gray-600">
+                        <strong>특징:</strong> 국가 주도 경제계획, 강한 사회통제, 집단주의
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                    <h3 class="text-xl font-bold text-blue-800 mb-3">🏛️ 권위주의적 우파</h3>
+                    <p class="text-gray-700 mb-3">
+                        자유시장 경제를 지지하면서도 전통적 사회 질서와 국가 권위를 중시합니다.
+                    </p>
+                    <div class="text-sm text-gray-600">
+                        <strong>특징:</strong> 보수적 가치관, 강한 국방, 시장경제 + 사회통제
+                    </div>
+                </div>
+                
+                <div class="bg-green-50 p-6 rounded-lg border border-green-200">
+                    <h3 class="text-xl font-bold text-green-800 mb-3">🕊️ 자유주의적 좌파</h3>
+                    <p class="text-gray-700 mb-3">
+                        경제적 평등과 사회적 자유를 동시에 추구하며, 개인의 권리와 다양성을 존중합니다.
+                    </p>
+                    <div class="text-sm text-gray-600">
+                        <strong>특징:</strong> 사회민주주의, 진보적 가치, 복지국가
+                    </div>
+                </div>
+                
+                <div class="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
+                    <h3 class="text-xl font-bold text-yellow-800 mb-3">🗽 자유주의적 우파</h3>
+                    <p class="text-gray-700 mb-3">
+                        경제적 자유와 개인의 자유를 모두 중시하며, 정부의 개입을 최소화하려 합니다.
+                    </p>
+                    <div class="text-sm text-gray-600">
+                        <strong>특징:</strong> 고전적 자유주의, 작은 정부, 개인주의
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 정치 스펙트럼의 한계와 주의사항 -->
+        <section class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">정치 스펙트럼의 한계와 주의사항</h2>
+            
+            <div class="space-y-4 text-gray-700">
+                <div class="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400">
+                    <h4 class="font-semibold text-yellow-800 mb-2">⚠️ 과도한 단순화 주의</h4>
+                    <p>정치적 믿음은 매우 복잡하며, 2차원 좌표계로도 모든 뉘앙스를 담을 수 없습니다.</p>
+                </div>
+                
+                <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-400">
+                    <h4 class="font-semibold text-blue-800 mb-2">📊 상대적 개념</h4>
+                    <p>좌파/우파의 기준은 시대와 국가에 따라 달라질 수 있습니다.</p>
+                </div>
+                
+                <div class="bg-green-50 p-4 rounded-lg border-l-4 border-green-400">
+                    <h4 class="font-semibold text-green-800 mb-2">🎯 참고용 도구</h4>
+                    <p>정치 성향 테스트는 자신의 정치적 입장을 이해하는 출발점이지, 절대적 기준이 아닙니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="text-center bg-blue-50 rounded-lg p-8 border border-blue-200">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">나의 정치 성향은?</h2>
+            <p class="text-gray-600 mb-6">
+                지금까지 배운 정치 스펙트럼을 바탕으로 자신의 정치적 좌표를 확인해보세요.
+            </p>
+            <a href="index.html" class="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors">
+                정치성향 테스트 하기 🧭
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 mt-12">
+        <div class="container mx-auto max-w-6xl px-4 py-8">
+            <div class="text-center">
+                <div class="flex items-center justify-center space-x-3 mb-4">
+                    <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">🧭</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-800">나의 정치 성향</h3>
+                </div>
+                <p class="text-gray-600 text-sm mb-4">
+                    정치적 이해를 넓히는 교육적 도구입니다.
+                </p>
+                <div class="text-xs text-gray-500">
+                    © 2024 나의 정치 성향. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu functionality
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        
+        mobileMenuBtn.addEventListener('click', function() {
+            // Simple mobile menu toggle (you can expand this)
+            alert('모바일 메뉴 기능을 구현해주세요.');
+        });
+    </script>
+</body>
+</html>
