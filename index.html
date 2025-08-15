@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="20개의 질문으로 당신의 정치적 좌표를 알아보는 나의 정치 성향 테스트. 경제적/사회적 성향을 분석하여 권위좌파, 권위우파, 자유좌파, 자유우파 중 당신의 위치를 찾아보세요.">
-    <meta name="keywords" content="정치성향, 정치테스트, 보수, 진보, 중도, 정치나침반, 정치좌표, 권위주의, 자유주의, 좌파, 우파">
+    <meta name="description" content="무료 정치성향 테스트로 나의 정치적 좌표 진단하기. 좌파 우파 보수 진보 성향을 정확히 분석하여 권위좌파, 권위우파, 자유좌파, 자유우파 중 당신의 위치를 찾아보세요.">
+    <meta name="keywords" content="정치성향, 정치테스트, 정치성향테스트, 보수, 진보, 중도, 좌파, 우파, 정치나침반, 정치좌표, 권위주의, 자유주의, 정치성향진단, 무료정치테스트, 나의정치성향">
     <meta name="author" content="정치성향 테스트">
     <meta name="robots" content="index, follow">
     <meta name="language" content="Korean">
@@ -45,7 +45,7 @@
         "@type": "WebApplication",
         "name": "나의 정치 성향",
         "alternateName": "정치나침반 테스트",
-        "description": "20개의 질문으로 당신의 정치적 좌표를 알아보는 나의 정치 성향 테스트. 경제적/사회적 성향을 분석하여 권위좌파, 권위우파, 자유좌파, 자유우파 중 당신의 위치를 찾아보세요.",
+        "description": "무료 정치성향 테스트로 나의 정치적 좌표 진단하기. 좌파 우파 보수 진보 성향을 정확히 분석하여 권위좌파, 권위우파, 자유좌파, 자유우파 중 당신의 위치를 찾아보세요.",
         "url": "https://example.com/political-test/",
         "applicationCategory": "EducationalApplication",
         "operatingSystem": "Web Browser",
@@ -63,11 +63,45 @@
             "@type": "Audience",
             "audienceType": "General Public"
         },
-        "keywords": "정치성향, 정치테스트, 보수, 진보, 중도, 정치나침반, 정치좌표, 권위주의, 자유주의, 좌파, 우파"
+        "keywords": "정치성향, 정치테스트, 정치성향테스트, 보수, 진보, 중도, 좌파, 우파, 정치나침반, 정치좌표, 권위주의, 자유주의, 정치성향진단, 무료정치테스트, 나의정치성향"
     }
     </script>
     
-    <title>나의 정치 성향 - 나는 보수일까 진보일까? | 정치나침반으로 알아보는 나의 정치적 좌표</title>
+    <!-- FAQ 구조화된 데이터 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "정치성향 테스트는 무료인가요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "네, 모든 정치성향 테스트는 완전히 무료로 제공됩니다. 회원가입이나 결제 없이 바로 테스트를 시작할 수 있습니다."
+                }
+            },
+            {
+                "@type": "Question", 
+                "name": "정치성향 테스트 결과는 얼마나 정확한가요?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "2차원 정치 좌표계를 기반으로 한 과학적인 분석 방법을 사용합니다. 경제적 성향과 사회적 성향을 종합적으로 평가하여 객관적인 결과를 제공합니다."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "좌파와 우파의 차이점은 무엇인가요?",
+                "acceptedAnswer": {
+                    "@type": "Answer", 
+                    "text": "좌파는 경제적 평등과 정부 개입을 지지하고, 우파는 자유시장 경제와 개인의 경제적 자유를 중시합니다. 각각 다른 경제 철학과 사회 정책을 추구합니다."
+                }
+            }
+        ]
+    }
+    </script>
+    
+    <title>정치성향 테스트 무료 | 나의 정치 성향 진단 - 좌파 우파 보수 진보 테스트</title>
     
     <!-- Preload fonts for better performance -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Poppins:wght@600;700&display=swap" as="style">
@@ -430,9 +464,9 @@
     <div class="container mx-auto max-w-2xl relative flex items-center justify-center min-h-[calc(100vh-120px)] sm:min-h-[calc(100vh-200px)] px-3 sm:px-4">
         <!-- 시작 화면 -->
         <div id="start-screen" class="card visible-card p-4 sm:p-10 lg:p-12 rounded-3xl text-center w-full">
-            <h1 class="text-xl sm:text-3xl lg:text-4xl font-poppins font-bold mb-3 sm:mb-4 text-gray-800 leading-tight">나는 보수일까 진보일까?</h1>
+            <h1 class="text-xl sm:text-3xl lg:text-4xl font-poppins font-bold mb-3 sm:mb-4 text-gray-800 leading-tight">정치성향 테스트 - 나는 보수일까 진보일까?</h1>
             <p class="text-gray-600 mb-4 sm:mb-6 text-base sm:text-lg leading-relaxed">
-                20개의 질문으로 당신의 정치적 좌표를 알아보세요! 🧭
+                무료 정치성향 진단으로 나의 정치적 좌표를 알아보세요! 좌파/우파, 보수/진보 성향을 정확히 분석해드립니다. 🧭
             </p>
             <div class="mb-4 sm:mb-6">
                 <input type="text" id="name-input" placeholder="이름을 입력하세요" 
@@ -561,9 +595,9 @@
         <div class="container mx-auto max-w-6xl px-4">
             <!-- 섹션 헤더 -->
             <div class="text-center mb-12">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">정치를 더 깊이 이해해보세요</h2>
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">정치성향 테스트와 정치 교육 자료</h2>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                    정치 이론부터 실제 적용까지, 복잡한 정치 현상을 쉽고 체계적으로 설명합니다.
+                    좌파 우파 보수 진보 이념부터 정치 이론까지, 정치성향을 이해하는 데 필요한 모든 정보를 제공합니다.
                 </p>
             </div>
 
